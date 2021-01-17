@@ -1,0 +1,74 @@
+{
+    "name": "Shan-compendiums",
+    "title": "Shan的DnD資料庫",
+    "description": "私人整理的DnD5e資源",
+    "version": "v1.0.0",
+    "minimumCoreVersion": "0.7.9",
+    "compatibleCoreVersion":"0.7.9",
+    "author": "Shan",
+    "packs": [
+        {
+            "name": "actors",
+            "label": "角色",
+            "path": "packs/actors.db",
+            "entity": "Actor",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "spells",
+            "label": "法術",
+            "path": "packs/spells.db",
+            "entity": "Item",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "items",
+            "label": "物品",
+            "path": "packs/items.db",
+            "entity": "Item",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "classfeatures",
+            "label": "特性",
+            "path": "packs/classfeatures.db",
+            "entity": "Item",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "journals",
+            "label": "日誌",
+            "path": "packs/journal.db",
+            "entity": "JournalEntry",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "scenes",
+            "label": "地圖",
+            "path": "packs/scenes.db",
+            "entity": "Scene",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "macros",
+            "label": "巨集",
+            "path": "packs/macros.db",
+            "entity": "Macro",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "tables",
+            "label": "Roll Tables",
+            "path": "packs/tables.db",
+            "entity": "RollTable",
+            "package": "Shan-compendiums"
+        },
+        {
+            "name": "playlists",
+            "label": "音樂",
+            "path": "packs/playlists.db",
+            "entity": "Playlist",
+            "package": "Shan-compendiums"
+        }
+    ]
+}
